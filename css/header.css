@@ -1,0 +1,67 @@
+.header{
+    
+    background-image:url(../img/IMAGE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom:-200px ;
+}    
+.header__inner{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.header__logo{
+    margin-top: 63px;
+    margin-right: 175px;
+}
+.header__nav{
+    max-width: 700px;
+}
+.header__menu{
+    
+    margin-top: 65px;
+    display: flex;
+    
+}
+.header__list{
+    display: flex;
+
+}
+.header__link{
+    margin-right: 50px;
+}
+.header__link:hover{
+    color:violet;
+}
+.header__btn{
+    max-width: 638px;
+    font-size: 13px;
+    margin-top: 55px;
+    border: 1px solid #fff;
+    padding: 12px 15px 12px 16px;
+    height: 50px;
+    border-radius: 6px;
+    
+    
+}
+.header__title{
+    margin-top: 155px;
+    font-size: 43px;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+.header__text{
+    font-size: 11px;
+    margin-bottom: 35px;
+}
+.header__btn-btn{
+    display: block;
+    max-width: 193px;
+    background-color: #0A8BFE;
+    padding: 15px 37px 15px 37px;
+    border-radius: 6px;
+    margin-bottom: 100px;
+}

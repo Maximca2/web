@@ -1,0 +1,35 @@
+.bg{
+    background-color:#0E0E33;
+    height: 100vh;
+    margin-bottom: 150px;
+}
+.bg__title{
+    text-align: center;
+    font-size: 41px;
+    line-height: 50px;
+    color:#fff;
+    padding-top: 150px;
+    margin-bottom: 80px;
+    
+}
+.bg__box{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.bg__number{
+    display: inline-block;
+    color:#fff;
+    font-size: 42px;
+    margin-right:130px ;
+    margin-left:110px ;
+    margin-right:110px ;
+    margin-bottom: 60px;
+}
+.bg__text{
+    font-size: 11px;
+    color:gray;
+    text-align: center;
+}
