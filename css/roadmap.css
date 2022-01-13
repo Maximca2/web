@@ -1,0 +1,77 @@
+.roadmap__box{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+    
+}
+.roadmap__box-second{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+.roadmap__img img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 45px;
+    margin-right: 40px;
+    margin-left: 40px; 
+    
+}
+.roadmap__img-img img{
+    
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+    margin-right: 60px;
+    margin-left: 15px; 
+}
+.roadmap__item{
+
+    width: 665px;
+    position: relative;
+    margin-bottom: 70px;
+}
+.roadmap__title{
+    font-size: 40px;
+    color:#000;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.roadmap__item-name{
+        
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 30px;
+
+
+
+    color: #737373;
+}
+
+
+
+
+.roadmap__img-icon{
+    position: absolute;
+    right: 0;
+    
+    margin-bottom: 45px;
+    margin-right: 40px;
+    margin-left: 40px; 
+}
+.roadmap__item-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    
+    
+    
+    color: #000000;
+}
