@@ -2,6 +2,7 @@
     background-color:#0E0E33;
     height: 100vh;
     margin-bottom: 150px;
+    
 }
 .bg__title{
     text-align: center;
@@ -14,22 +15,19 @@
 }
 .bg__box{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
     
     
 }
 .bg__number{
-    display: inline-block;
+    
     color:#fff;
     font-size: 42px;
-    margin-right:130px ;
-    margin-left:110px ;
-    margin-right:110px ;
+    /* margin-left:110px ;
+    margin-right:110px ; */
     margin-bottom: 60px;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 45px;
+    
 }
 .bg__text{
     font-size: 11px;

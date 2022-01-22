@@ -1,0 +1,108 @@
+.heder__button{
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    padding:15px  0;
+    position: relative;
+    cursor: pointer;
+    display: none;
+    }.heder__button::after,
+    .heder__button::before{
+        position: absolute;
+        content:'';
+        left: 0;
+        right: 0;
+        height: 4px;
+        background-color:rgb(224, 49, 49);
+        
+    
+    }
+    .heder__button::before{
+    
+        top: 0;
+    }
+    .heder__button::after{
+        bottom :0 ;
+        
+        
+    }
+    
+    .heder__button span{
+        display: block;
+        height: 4px;
+        background-color:rgb(224, 49, 49);
+    }
+    @media(max-width: 885px){
+        .intro__inner{
+            display: none;
+        }
+        .about__title{
+            margin-top: 196px;
+        }
+        .about__text{
+            margin-top: 190px;
+        }
+    }
+    @media(max-width: 785px){
+        .header__menu{
+            position: absolute;
+            left: 10%;
+            right: 10%;
+            background-color:tomato;
+            display: flex;
+            flex-direction: column;
+            top: -550px;
+        }
+        .header__menu--active{
+            top:45px;
+        }
+        .heder__button{
+            display: inline-block!important;
+            margin-top: 70px;
+            margin-left: 300px;
+    
+        }
+        .heder__button{
+            display: block;
+        }
+        .header__link{
+            display: block;
+            padding: 30px;
+            text-align: center;
+        
+        }
+    
+    }
+    @media (max-width:757px) {
+        .entry__inner{
+            max-width :500px;
+        }
+        .form-text{
+            max-width: 300px;
+        }
+        .form-area{
+            max-width: 300px;
+        }
+    }
+    @media (max-width:749px){
+        .about__first-box{
+            display: block;
+            margin-bottom: 80px;
+        }
+        .about__item-title{
+            margin-bottom: 10px;
+        }
+        .about__second-box{
+            display: block;
+        }
+        .about__item-text{
+            margin-bottom: 40px;
+
+        }
+    }
+
+    @media (max-width:645px){
+        .header__btn{
+            display:none;
+        }
+    }

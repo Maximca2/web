@@ -1,15 +1,19 @@
 .roadmap__box{
     
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 70px;
+    max-width: 1010px;
+    background: #FAFAFA;
     
     
 }
 .roadmap__box-second{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 70px;
+    max-width: 1010px;
+    background: #FAFAFA;
     
 }
 .roadmap__img img{
@@ -17,8 +21,8 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 45px;
-    margin-right: 40px;
-    margin-left: 40px; 
+    /* padding-right: 40px;
+    padding-left: 40px;  */
     
 }
 .roadmap__img-img img{
